@@ -56,4 +56,8 @@ for write and read package
     1.  add Button.css and import it into tsx
     2.  add plugin to rollup.config.mjs 
         1.  import postcss from "rollup-plugin-postcss";
-    3. update rollup t.d
+        2. npm install rollup-plugin-postcss --save-dev
+        3. add following line to rollup.config.mjs tds plugin       
+           1. external:[/\.css$/] to 
+
+12. update version

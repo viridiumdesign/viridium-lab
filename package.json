@@ -1,6 +1,6 @@
 {
   "name": "@viridiumdesign/viridium-lab",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Common lib for viridium design",
   "scripts": {
     "rollup": "rollup -c"
@@ -21,6 +21,7 @@
     "react": "^18.2.0",
     "rollup": "^3.14.0",
     "rollup-plugin-dts": "^5.1.1",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.5.0",
     "typescript": "^4.9.5"
   },
