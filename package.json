@@ -1,6 +1,6 @@
 {
   "name": "@viridiumdesign/viridium-lab",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Common lib for viridium design",
   "scripts": {
     "rollup": "rollup -c"
