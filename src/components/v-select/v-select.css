@@ -1,0 +1,77 @@
+.v-search-select-container {
+    --search-box-input-padding: 6px;
+    --search-box-icon-padding: 8px;
+    --search-box-input-padding-left: 2.5rem;
+    --search-box-icon-size:2.1rem;
+
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.v-search-select-container .v-select-label {
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+.v-search-select-container input {
+    width: 100%;
+    padding: var(--search-box-input-padding);
+    padding-left: var(--search-box-input-padding-left);
+}
+
+.v-search-select-container ul {
+    padding: 4px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    display: none;
+    overflow: scroll;
+    max-height: 500px;
+    min-height: 500px;
+    background-color: antiquewhite;
+    margin-top: 2px;
+
+}
+
+.v-search-select-container li {
+    padding: 8px 4px;
+    border-bottom: 1px solid lightcoral;
+    cursor: default;
+}
+
+.v-search-select-container .v-select-option-text {
+    font-size: medium;
+}
+
+.v-search-select-container .v-select-input-box {
+    display: flex;
+}
+
+.v-search-select-container .v-select-drop-icon {
+    width: var(--search-box-icon-size);
+    height: var(--search-box-icon-size);
+    padding: var(--search-box-icon-padding);
+    border-left: 1px solid rgb(173, 173, 173);
+    margin: 0px 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.v-search-select-container .v-select-x-icon {
+    width: var(--search-box-icon-size);
+    height: var(--search-box-icon-size);
+    padding: var(--search-box-icon-padding);
+    border-right: 1px solid rgb(173, 173, 173);
+    border-radius: 4px;
+    margin: 0px 0px;
+    position: absolute;
+    left: 0em;
+}
+
+.v-search-select-container .v-highlight {
+    background-color: rgb(244, 244, 244);
+}

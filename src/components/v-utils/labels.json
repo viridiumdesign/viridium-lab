@@ -1,0 +1,28 @@
+
+[
+    {
+        "name" : "orderitems",
+        "label" : "Order Items"
+    },
+    {
+        "name" : "servicerequests",
+        "label" : "Service Requests"
+    },
+    {
+        "name" : "FieldDefs",
+        "label" : "Field Definitions"
+    },
+    {
+        "name" : "entitydefinitions",
+        "label" : "Entity Definitions"
+    },
+    {
+        "name" : "newsarticles",
+        "label" : "News Articles"
+    },
+    {
+        "name" : "balancesheets",
+        "label" : "Balance Sheets"
+    }
+]
+  

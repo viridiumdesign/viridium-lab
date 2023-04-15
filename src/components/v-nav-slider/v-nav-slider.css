@@ -1,0 +1,41 @@
+.v-nav-slider-item {
+    --v-nav-slider-color: rgb(223, 223, 223);
+    --v-nav-selected-color: rgb(134, 134, 134);
+    padding: 4px 0px;
+    border-left: 4px solid var(--v-nav-slider-color);
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    line-height: 1.2em;
+}
+
+.v-nav-slider-item .v-icon{
+    margin-left: -10px;
+    padding-right: .5em;
+    color: var(--v-nav-slider-color);
+    vertical-align: middle;
+    font-size: 1.6em;
+    font-weight: 900;
+}
+
+.v-nav-slider-item:hover {
+    color: rgb(60, 0, 255);
+}
+
+.v-nav-slider-item {
+    cursor: pointer;
+}
+.v-nav-slider-item .v-label{
+    color: var(--v-nav-slider-color)
+}
+.v-nav-slider-item.v-selected .v-label{
+    color: var(--v-nav-selected-color)
+}
+
+.v-nav-slider-item .v-icon {
+    visibility:hidden;
+}
+
+.v-nav-slider-item .v-icon.v-selected {
+    visibility:visible
+}

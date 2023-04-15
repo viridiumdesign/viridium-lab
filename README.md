@@ -1,4 +1,4 @@
-# viridium-lab
+# luckie-lab
 
 ## Setup
 1. create a brand new git repostory

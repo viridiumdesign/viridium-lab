@@ -1,0 +1,56 @@
+.v-dimension-title {
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+.v-dimension-select {
+    padding: 5px;
+}
+.v-dimension-container {
+    margin-bottom: 15px;
+}
+
+.v-table .v-filters {
+    padding: 0.5em;
+    background-color: aliceblue;
+}
+.v-table .v-filter {
+    margin-right: .2em;
+    display: inline-block;
+    width: 200px;
+}
+.v-table .v-table-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid cadetblue;
+}
+.v-table .data-cell-button {
+    text-align: center;
+}
+.v-table .data-cell-select {
+    text-align: center;
+    min-width: 120px;
+    width: 12.5%;
+}
+.v-table .data-cell-input {
+    text-align: center;
+    min-width: 120px;
+    width: 12.5%;
+}
+.v-table .data-cell-checkbox {
+    text-align: center;
+    padding:.5em;
+}
+.v-table .data-cell-header {
+    font: 1em sans-serif;
+    padding: .5em;
+    font-size: large;
+    background-color: rgb(239, 239, 239);
+}
+.v-table .data-cell-text {
+    padding:.5em;
+}
+.v-table .data-cell-label {
+    padding: .5em;
+    width: 12.5%;
+}
